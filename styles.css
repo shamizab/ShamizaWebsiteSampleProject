@@ -1,0 +1,29 @@
+body{
+background-color:  rgb(237, 248, 248);
+
+}
+
+.logo{
+max: width 80px;
+display:block;
+margin:auto;
+
+
+}
+
+.navigation{
+    text-align:center;
+    background-color:rgb(232, 240, 240);
+}
+.header{
+    background-color: rgb(185, 107, 4);
+}
+
+.navigation a {
+    color:rgb(129, 75, 4);
+    display: inline-block;
+    padding:10px;
+    margin-left: 20px;
+    margin-right:20px;
+    text-decoration:none;
+}

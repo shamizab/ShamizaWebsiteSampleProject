@@ -1,29 +1,35 @@
-body{
-background-color:  rgb(237, 248, 248);
-
+body {
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: "Roboto", sans-serif;
+    background-color: hsl(33, 78%, 91%);
+    color:rebeccapurple;
+    margin: 0px;
 }
-
-.logo{
-max: width 80px;
-display:block;
-margin:auto;
-
-
+.logo {
+    max-width: 90px;
+    display: block;
+    margin: auto;
 }
-
-.navigation{
-    text-align:center;
-    background-color:rgb(232, 240, 240);
+.navigation {
+    text-align: center;
+    background-color:hsl(33, 78%, 50%);
 }
-.header{
-    background-color: rgb(185, 107, 4);
-}
-
 .navigation a {
-    color:rgb(129, 75, 4);
+    color:hsl(33, 78%, 91%);
+    text-decoration: none;
+    padding: 20px 10px;
     display: inline-block;
-    padding:10px;
-    margin-left: 20px;
-    margin-right:20px;
-    text-decoration:none;
+}
+/* .navigation a:nth-child(2) {
+    color: red;
+} */
+.navigation a:hover {
+    background-color:hsl(33, 53%, 34%);
+}
+.banner {
+    /* 50vh = 50% window height */
+    min-height: 50vh;
+    background-image: url("pexels-photo-2104152.jpeg");
+    background-size: cover;
+    background-position: center center;
 }

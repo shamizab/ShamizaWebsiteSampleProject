@@ -8,7 +8,7 @@ body {
 .logo {
     max-width: 90px;
     display: block;
-    margin: auto;
+    /*margin: auto;
 }
 .navigation {
     text-align: center;
@@ -32,4 +32,11 @@ body {
     background-image: url("pexels-photo-2104152.jpeg");
     background-size: cover;
     background-position: center center;
+}
+
+.main-header {
+    display: flex;
+    justify-content:space-between;
+
+
 }

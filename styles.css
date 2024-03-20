@@ -2,7 +2,7 @@ body {
     /* font-family:Arial, Helvetica, sans-serif; */
     font-family: "Roboto", sans-serif;
     background-color: hsl(0, 0%, 100%);
-    color:rebeccapurple;
+    color:rgb(217, 201, 233);
     margin: 0px;
 }
 .logo {
@@ -12,10 +12,10 @@ body {
 }
 .navigation {
     text-align: center;
-    background-color:rgb(46, 12, 199);
+    background-color:rgb(252, 252, 253);
 }
 .navigation a {
-    color:hsl(0, 0%, 100%);
+    color:hsl(29, 97%, 23%);
     text-decoration: none;
     padding: 30px 20px;
     display: inline-block;
@@ -24,7 +24,7 @@ body {
     color: red;
 } */
 .navigation a:hover {
-    background-color:hsl(0, 0%, 33%);
+    background-color:hsl(32, 68%, 73%);
 }
 .banner {
     /* 100vh = 50% window height */
@@ -32,10 +32,37 @@ body {
     background-image: url("image.jpg");
     background-size: cover;
     background-position:   center center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.banner h1{
+   text-align:center;
+   margin:0px;
+   padding: 25vh;
+   color:hsl(30, 30%, 96%);
+   font-size:15em;
+   font-weight:800;
+   text-shadow:20px 20px 25px #080808;
+    
+}
+
+.banner h1:hover{
+filter:blur(1px);
+
 }
 
 .main-header {
     display: flex;
+    flex-direction:row;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.content { 
+max-width:1000px;
+margin:auto;
+
+
 }

@@ -12,6 +12,7 @@ body {
 }
 .navigation {
     text-align: center;
+   font-weight: bold;
     background-color:rgb(252, 252, 253);
 }
 .navigation a {
@@ -24,7 +25,7 @@ body {
     color: red;
 } */
 .navigation a:hover {
-    background-color:hsl(32, 68%, 73%);
+    background-color:hsl(194, 63%, 82%);
 }
 .banner {
     /* 100vh = 50% window height */
@@ -63,7 +64,7 @@ filter:blur(1px);
 .content { 
 max-width:1000px;
 margin:auto;
-text-color: hsl(29, 97%, 23%);
+text-color: hsl(0, 0%, 1%);
 
 
 }

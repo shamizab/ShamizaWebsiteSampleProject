@@ -64,7 +64,7 @@ filter:blur(1px);
 .content { 
 max-width:1000px;
 margin:auto;
-text-color: hsl(0, 0%, 1%);
+text-color: hsl(0, 100%, 3%);
 
 
 }

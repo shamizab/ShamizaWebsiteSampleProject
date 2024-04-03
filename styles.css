@@ -61,26 +61,26 @@ filter:blur(1px);
     align-items: flex-start;
 }
 
-.content { 
-max-width:1000px;
-margin:auto;
-text-color: hsl(0, 100%, 3%);
-
+.content {
+    max-width: 1000px;
+    margin: auto;
+    color:hsl(0, 0%, 2%);
+  
 
 }
-.card-grid{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 30px;
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
 }
 
-.card-image{
-max-width: 100%;
-display: block;
-aspect-ratio: 3/4;
-
-object-fit: cover;
-object-position: center;
-border-radius: 10px;
-
+.card-image {
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    color:hsl(0, 0%, 2%);
+  
 }

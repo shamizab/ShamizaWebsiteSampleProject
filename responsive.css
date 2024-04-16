@@ -1,16 +1,11 @@
-@media screen and (max-width:480px){
-card.grid{
-grid-template-column:1fr;
-
-}
-
-.content{
-margin:1em;
-
-}
-
-.main-header{
-    flex-wrap:wrap;
-}
-
-}
+@media screen and (max-width: 480px) {
+    .card-grid {
+         grid-template-columns: 1fr;
+    } 
+    .content {
+     margin: 1em;
+    }
+    .main-header {
+     flex-wrap: wrap;
+    }
+ }

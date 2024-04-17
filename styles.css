@@ -73,3 +73,33 @@ body {
     object-position: center;
     border-radius: 10px;
 }
+
+.front-carousel{
+min-width:100%;
+min-height:50vh;
+background-color:var(rgb(243, 125, 180));
+
+}
+
+.cell{
+width:100%;
+min-height: 50vh;
+display: grid;
+place-items: center;
+
+.cell:nth-child(1){
+    background-color: aquamarine;
+background-image: ;
+background-size: contain;
+background-position: center;
+background-repeat: no repeat;
+
+
+
+}
+
+.cell:nth-child(2) {
+    background-color: blueviolet;
+}
+
+}

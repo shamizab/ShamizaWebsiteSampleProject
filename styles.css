@@ -127,17 +127,20 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: true
+    autoPlay: 1500;
+  
+    
 }
 .cell:nth-child(2) {
     background-color:blueviolet;
-    background-image: url("carousel/annie-spratt-pbrQvuKJQf8-unsplash.jpg");
+    background-image: url("carousel/sean-pollock-PhYq704ffdA-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: true
+    autoPlay: 1500;
+    
 }
 
 .cell:nth-child(3) {
@@ -148,7 +151,7 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: true
+    autoPlay: 1500;
 }
 
 .cell:nth-child(4) {
@@ -159,7 +162,8 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: true
+    autoPlay: 1500;
+    background-position: center center;
 }
 
 .cell:nth-child(5) {
@@ -170,5 +174,5 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: true
+    autoPlay: 1500;
 }

@@ -8,9 +8,28 @@
      .main-header {
       flex-wrap: wrap;
      }
-  }
-
-  .nav-button{
-Display:block;
-
+     .nav-button {
+        display: block;
+     }
+     #search-form {
+        width: 100%;
+     }
+     .logo {
+        max-width: 60px;
+     }
+     .navigation {
+        flex-direction: column;
+        width: 100%;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 1s;
+     }
+     .navigation a {
+        display: block;
+        /* width: 100%; */
+        text-align: left;
+     }
+     .navigation.open {
+        max-height: 50vh;
+     }
   }

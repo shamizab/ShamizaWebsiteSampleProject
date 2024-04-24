@@ -84,6 +84,7 @@ body {
 #search-form input {
     border: 1px solid #7d7d7d;
     padding: 0.5em;
+    flex: 1;
 }
 
 #search-form button {
@@ -130,9 +131,8 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: 5s;
     width: 100%;
-  height: 80vh;
+    height: 80vh;
    
 
     
@@ -145,10 +145,9 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: 5s;
     position: relative;
     width: 100%;
-  height: 80vh;
+    height: 80vh;
     
 }
 
@@ -160,9 +159,8 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: 5s;
     width: 100%;
-  height: 80vh;
+    height: 80vh;
 }
 
 .cell:nth-child(4) {
@@ -173,7 +171,6 @@ body {
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    autoPlay: 5s;
     width: 100%;
     height: 80vh;
 
@@ -182,12 +179,20 @@ body {
 .cell:nth-child(5) {
     background-color:blueviolet;
     background-image: url("carousel/donny-jiang-42gFAgdIUC8-unsplash.jpg");
-   background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
     font-size: 4em;
-    
     width: 100%;
     height: 80vh;
    
 }
+
+
+.nav-button {
+    font-size: 32px;
+    background-color: transparent;
+    align-self: center;
+    border: solid transparent;
+    color: var(--jet);
+    display: none;

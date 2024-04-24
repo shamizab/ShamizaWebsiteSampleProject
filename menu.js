@@ -1,3 +1,4 @@
+
 function onPageLoad() {
     const Button = document.querySelector(".nav-button");
     const Menu = document.querySelector(".navigation");

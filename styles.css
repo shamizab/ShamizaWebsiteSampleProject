@@ -3,7 +3,7 @@
     --jet: hsla(0, 0%, 18%, 1);
     --rose-pompadour: hsla(342, 57%, 68%, 1);
     --dodger-blue: hsla(205, 94%, 52%, 1);
-    --white: rgb(255, 255, 255);
+    --white: rgb(253, 249, 249);
     --vanilla: rgb(250, 250, 249);
 }
 
@@ -44,12 +44,14 @@ body {
 .banner {
     /* 50vh = 50% window height */
     min-height: 50vh;
-    background-image: url("image2.png");
+    background-image: url("chalo-gallardo-F01kfMEodyk-unsplash.jpg");
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 80vh;
 }
 
 .banner h1 {
@@ -92,6 +94,7 @@ body {
 .content {
     max-width: 1000px;
     margin: auto;
+    text-align: center;
 }
 
 .card-grid {

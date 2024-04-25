@@ -3,7 +3,7 @@
     --jet: hsla(0, 0%, 18%, 1);
     --rose-pompadour: hsla(342, 57%, 68%, 1);
     --dodger-blue: hsla(205, 94%, 52%, 1);
-    --white: rgb(253, 249, 249);
+    --white: rgb(255, 255, 255);
     --vanilla: rgb(250, 250, 249);
 }
 
@@ -38,7 +38,7 @@ body {
     color: red;
 } */
 .navigation a:hover {
-    background-color: var(--dodger-blue);
+    background-color: rgb(252, 237, 237);
 }
 
 .banner {
@@ -188,7 +188,45 @@ body {
    
 }
 
+.products1 {
+    width: 100%;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
 
+.products1:nth-child(1) {
+    background-color:blueviolet;
+    background-image: url("carousel/chuttersnap-6lWqKRAdmns-unsplash.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 4em;
+    width: 100%;
+    height: 80vh;
+}
+
+.products1:nth-child(2) {
+    background-color:blueviolet;
+    background-image: url("carousel/d5-render-ObfRnTp1a1U-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 4em;
+    width: 100%;
+    height: 80vh;
+}
+.products1:nth-child(3) {
+        background-color:blueviolet;
+        background-image: url("carousel/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");
+        background-position: center center; 
+        background-repeat: no-repeat;
+        color: white;
+        font-size: 4em;
+        width: 100%;
+        height: 80vh;
+
+}
 .nav-button {
     font-size: 32px;
     background-color: transparent;
@@ -196,3 +234,4 @@ body {
     border: solid transparent;
     color: var(--jet);
     display: none;
+}
